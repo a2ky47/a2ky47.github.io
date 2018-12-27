@@ -1,0 +1,102 @@
+body {
+    box-sizing: border-box;
+    color: black;
+    font-family: 'Secular One', sans-serif;
+}
+
+/* header */
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 20px;
+    letter-spacing: 5px;
+    /* margin: 40px 75px;*/
+    text-align: right;
+    line-height: normal;
+    margin: 40px 80px;
+
+
+
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    text-align: right;
+}
+
+.name {
+    color: black;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-decoration: none;
+    margin: 0px 12px;
+
+
+}
+
+.work,
+.about {
+    color: black;
+    font-weight: bold;
+    letter-spacing: 5px;
+    text-decoration: none;
+    margin: 0px 20px;
+}
+
+/* grid part */
+.wrap {
+    text-align: center;
+    margin: 80px;
+
+}
+
+.col {
+    position: relative;
+    width: 90%;
+}
+
+
+
+.img-fluid {
+    opacity: 1;
+    display: block;
+    width: 700px;
+    height: 500px;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    align-items: center;
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.col-sm-6:hover .img-fluid {
+    opacity: 0.3;
+    filter: grayscale(80%)
+}
+
+.col-sm-6:hover .middle {
+    opacity: 1;
+}
+
+.text {
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    letter-spacing: 3px;
+    padding: 10px 38px;
+    font-family: 'Secular One', sans-serif;
+
+}
