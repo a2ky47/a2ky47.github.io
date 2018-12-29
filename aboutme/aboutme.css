@@ -1,0 +1,40 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 20px;
+    letter-spacing: 5px;
+    /* margin: 40px 75px;*/
+    text-align: right;
+    line-height: normal;
+    margin: 40px 80px;
+
+
+
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    text-align: right;
+}
+
+.name {
+    color: black;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-decoration: none;
+    margin: 0px 12px;
+
+
+}
+
+.work,
+.about {
+    color: black;
+    font-weight: bold;
+    letter-spacing: 5px;
+    text-decoration: none;
+    margin: 0px 20px;
+}
