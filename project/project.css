@@ -29,6 +29,16 @@ body {
 }
 
 .name {
+    color: gray;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-decoration: none;
+    margin: 0px 12px;
+
+
+}
+
+.name:hover {
     color: black;
     font-weight: bold;
     letter-spacing: 2px;
@@ -38,14 +48,43 @@ body {
 
 }
 
-.work,
-.about {
+.work {
     color: black;
     font-weight: bold;
     letter-spacing: 5px;
     text-decoration: none;
     margin: 0px 20px;
 }
+
+
+
+.about {
+    color: gray;
+    font-weight: bold;
+    letter-spacing: 5px;
+    text-decoration: none;
+    margin: 0px 20px;
+}
+
+.work:hover {
+    color: black;
+    font-weight: bold;
+    letter-spacing: 5px;
+    text-decoration: none;
+    margin: 0px 20px;
+
+}
+
+
+
+.about:hover {
+    color: black;
+    font-weight: bold;
+    letter-spacing: 5px;
+    text-decoration: none;
+    margin: 0px 20px;
+}
+
 
 /* grid part */
 .wrap {
@@ -98,5 +137,14 @@ body {
     letter-spacing: 3px;
     padding: 10px 38px;
     font-family: 'Secular One', sans-serif;
+
+
+
+}
+
+.ori {
+    text-align: center;
+    color: black;
+    font-size: 15px;
 
 }
