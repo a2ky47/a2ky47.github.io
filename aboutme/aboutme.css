@@ -38,3 +38,7 @@
     text-decoration: none;
     margin: 0px 20px;
 }
+
+.img-fluid {
+    width: 300px;
+}

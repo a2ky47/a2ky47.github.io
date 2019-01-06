@@ -1,3 +1,5 @@
+/*credit to Rob from codepen, adjusting code based on this https://codepen.io/BobsPen/pen/QgXJmB */
+
 let wave = function (x, y, t, amp) {
     const p1 = 0.8 * (x + y) + t,
         p2 = 0.6 * (x - y) - t,

@@ -106,13 +106,28 @@ body {
 
 .info {
     align-items: center;
-    font-size: 16px;
+    font-size: 18px;
     font-family: 'Chivo';
 
 }
 
+.interview {
+    text-align: center;
+    font-family: 'Chivo';
+    font-size: 26px;
 
-.title {
+
+}
+
+.who {
+    text-align: center;
+    font-family: 'Chivo';
+    font-size: 16px;
+
+}
+
+.title,
+.subtitle {
     font-family: 'Chivo';
 }
 
@@ -132,6 +147,7 @@ body {
     margin: auto;
 
 }
+
 
 
 .navbar {
