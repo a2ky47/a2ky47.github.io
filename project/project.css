@@ -154,3 +154,72 @@ body {
     pointer-events: none;
     cursor: default;
 }
+
+
+
+/*responsive*/
+
+
+@media only screen and (max-width:450px) {
+
+    /*header*/
+
+    .header {
+
+        font-size: 16px;
+
+        justify-content: space-between;
+
+        margin: 20px 20px;
+
+
+
+    }
+
+
+    .name {
+        margin: 0px 3px;
+        letter-spacing: 1px;
+
+
+
+    }
+
+    .work {
+        letter-spacing: 2px;
+        margin: 0px 8px;
+    }
+
+
+
+    .about {
+        letter-spacing: 2px;
+        margin: 0px 8px;
+    }
+
+    /*main*/
+
+    .wrap {
+        margin: 5px;
+    }
+
+
+    .project {
+
+        font-size: 18px;
+        letter-spacing: 2px;
+        padding: 10px 20px;
+
+
+
+
+    }
+
+    .subtitle {
+        font-size: 10px;
+        letter-spacing: 2px;
+        padding: 10px 20px;
+    }
+
+
+}

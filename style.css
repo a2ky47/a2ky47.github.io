@@ -142,19 +142,46 @@ canvas,
 }
 
 /*===== responsive ====*/
+
 @media only screen and (max-width:450px) {
+
     #title {
         font-size: 30px;
     }
 
+
+    .header {
+
+        font-size: 16px;
+
+        justify-content: space-between;
+
+        margin: 20px 20px;
+
+
+
+    }
+
+
     .name {
-        display: none;
+        margin: 0px 3px;
+        letter-spacing: 1px;
+
+
+
     }
 
-    .menu {
-        margin-left: 100px;
+    .work {
+        letter-spacing: 2px;
+        margin: 0px 8px;
     }
 
+
+
+    .about {
+        letter-spacing: 2px;
+        margin: 0px 8px;
+    }
 }
 
 /* Expanded Animations */

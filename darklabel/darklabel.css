@@ -151,3 +151,86 @@ body {
 
 
 /* footer part */
+
+
+@media only screen and (max-width:450px) {
+
+    /* header */
+
+
+    .header {
+
+        font-size: 16px;
+
+        justify-content: space-between;
+
+        margin: 20px 20px;
+
+
+
+    }
+
+
+    .name {
+        margin: 0px 3px;
+        letter-spacing: 1px;
+
+
+
+    }
+
+    .work {
+        letter-spacing: 2px;
+        margin: 0px 8px;
+    }
+
+
+
+    .about {
+        letter-spacing: 2px;
+        margin: 0px 8px;
+    }
+
+    /* main */
+
+    .wrap {
+        margin: 10px;
+        padding: 0px;
+        margin-top: 50px;
+
+    }
+
+    .intro2 {
+        font-size: 12px;
+    }
+
+    .project {
+        font-size: 28px;
+    }
+
+    .info1 {
+        font-size: 24px;
+    }
+
+    .info2 {
+        font-size: 9px;
+    }
+
+    .title {
+        font-size: 24px;
+    }
+
+    .intro {
+        font-size: 12px;
+
+    }
+
+    .rtitle {
+        font-size: 18px;
+    }
+
+    .nav-link {
+        font-size: 18px;
+        margin
+    }
+}

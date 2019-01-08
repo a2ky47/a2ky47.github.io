@@ -166,3 +166,42 @@ body {
 }
 
 /* footer part */
+
+
+@media only screen and (max-width:450px) {
+
+
+
+    .header {
+
+        font-size: 16px;
+
+        justify-content: space-between;
+
+        margin: 20px 20px;
+
+
+
+    }
+
+
+    .name {
+        margin: 0px 3px;
+        letter-spacing: 1px;
+
+
+
+    }
+
+    .work {
+        letter-spacing: 2px;
+        margin: 0px 8px;
+    }
+
+
+
+    .about {
+        letter-spacing: 2px;
+        margin: 0px 8px;
+    }
+}
