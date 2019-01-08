@@ -208,12 +208,13 @@ body {
         font-size: 28px;
     }
 
-    .info1 {
-        font-size: 24px;
+    .info {
+        font-size: 12px;
     }
 
-    .info2 {
-        font-size: 9px;
+    .info1 {
+        font-size: 24px;
+        margin-bottom: 20px;
     }
 
     .title {
@@ -223,7 +224,10 @@ body {
     .intro {
         font-size: 12px;
 
+
     }
+
+
 
     .rtitle {
         font-size: 18px;
@@ -232,5 +236,9 @@ body {
     .nav-link {
         font-size: 18px;
         margin
+    }
+
+    .video {
+        width: 340px;
     }
 }

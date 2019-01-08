@@ -17,7 +17,7 @@ let projection = function () {
         sy = 1,
         sz = 5,
         cx = 8000,
-        cy = 600,
+        cy = 100,
         cz = 5000;
 
     return function (x, y, z) {
@@ -42,14 +42,12 @@ var amplitude;
 document.onmousemove = function (e) {
     var mousecoords = getMousePos(e);
     console.log(mousecoords.x);
-    amplitude = mousecoords.x / 10;
+    amplitude = mousecoords.x / 8;
 
 
 }
 
-document.onmousedown = function (e) {
-    ctx.fillStyle = "hsl(48, 100%, 50%)"
-}
+
 
 let draw = function () {
 
