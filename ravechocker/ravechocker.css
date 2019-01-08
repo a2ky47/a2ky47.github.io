@@ -270,4 +270,8 @@ body {
         font-size: 18px;
         margin
     }
+
+    .video {
+        width: 340px;
+    }
 }

@@ -124,6 +124,12 @@ body {
     font-family: 'Chivo';
     font-size: 16px;
 
+
+}
+
+.who1 {
+
+    visibility: hidden;
 }
 
 .title,
@@ -223,34 +229,48 @@ body {
     }
 
     .info1 {
-        font-size: 20px;
+        font-size: 18px;
+        margin-bottom: 40px;
     }
 
     #catagory {
-        font-size: 10px;
+        font-size: 12px;
     }
 
 
-    .info2 {
-        font-size: 9px;
-    }
 
     .title {
         font-size: 24px;
     }
 
     .interview {
-        font-size: 12px;
+        font-size: 14px;
 
     }
 
     .who {
-        font-size: 10px;
+        font-size: 14px;
+
+    }
+
+    .who {
+
+        visibility: hidden;
+
+
+
+    }
+
+    .who1 {
+        text-align: center;
+        font-family: 'Chivo';
+        font-size: 12px;
+        visibility: visible;
 
     }
 
     .intro {
-        font-size: 12px;
+        font-size: 14px;
 
     }
 
@@ -261,5 +281,9 @@ body {
     .nav-link {
         font-size: 18px;
         margin
+    }
+
+    .video {
+        width: 340px;
     }
 }
