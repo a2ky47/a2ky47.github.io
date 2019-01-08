@@ -245,6 +245,12 @@ body {
         font-size: 28px;
     }
 
+    .info {
+        margin-top: 20px;
+        font-size: 12px;
+
+    }
+
     .info1 {
         font-size: 24px;
     }
@@ -258,7 +264,7 @@ body {
     }
 
     .intro {
-        font-size: 12px;
+        font-size: 14px;
 
     }
 
