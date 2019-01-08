@@ -5,10 +5,234 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+
+
+    <link rel="stylesheet" href="ravechocker.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Chivo:400,700,900" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Archivo+Black|Merriweather+Sans" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <!-- popper.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <!-- bootstrap.min.js -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <!-- 使用 Wow.js 製作滾動動畫 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <!-- <script src="https://maps.google.com/maps/api/js?key=AIzaSyBjsrd3ViwwhqfDtWiJnWEL_8s8wMV7aFE"></script> -->
+    <script src="https://maps.google.com/maps/api/js?sensor=false"></script>
+    <script src="./js/main.js"></script>
+
+
+
+
+    <title>Rave Chocker</title>
 </head>
 
 <body>
+    <div class="header">
+        <div class="name">
+            <a class="name" href="../index.html">Ying Chia Liu</a>
+        </div>
+        <div class="menu">
+            <li><a class="work" href="../project/project.html">Work
+                </a></li>
+            <li><a class="about" href="../aboutme/aboutme.html">About
+                </a></li>
+
+        </div>
+
+    </div>
+
+
+    <div class="wrap">
+        <div class="container-fluid">
+
+            <h1 class="project mt-5">Rave Chocker</h1>
+            <p class="intro mb-4">
+                A chocker shine along with the beat of the music with different color based on your heartbeat.
+            </p>
+
+
+
+            <img src="ravecover.png" class="img-fluid" alt="">
+
+            <div class="row justify-content-around my-5">
+                <div class="col-7">
+
+                    <p class="info1">
+                        How happy you are<br>
+
+                        How cool you are ☺</b>
+
+                    </p>
+
+                </div>
+
+                <div class="col-5">
+                    <p class="info">
+                        <b>DISCIPLINE</b><br>
+                        Physical Computing<br>
+                        <br>
+                        <b>CREATIVE COMPUTATION LAB</b><br>
+                        AT PARSONS MFA DT (2018)<br>
+                        Within 2 weeks<br>
+                        <br>
+
+                        <b>TOOLS</b><br>
+
+                        Arduino<br>
+                        Handcraft<br>
+                        <br>
+
+                    </p>
+                </div>
+            </div>
+            <div class="row my-5">
+                <div class="video ">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item my-5" src="https://player.vimeo.com/video/309968929"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+
+
+            <h2 class="title my-5">Inspiration</h2>
+            <div class="row justify-content-center  mb-2">
+                <div class="col-4">
+
+
+                    <img class="img-fluid" id="outfit" src="outfit.png" alt="">
+                </div>
+                <div class="col-3">
+                    <img class="img-fluid" id="outfit" src="outfit2.jpg" alt="">
+
+
+                </div>
+                <div class="col-3">
+                    <img class="img-fluid" id="outfit" src="outfit3.png" alt="">
+
+
+                </div>
+
+
+            </div>
+            <h6 class="info2 text-center">pictures from google image</h6>
+
+            <h4 class="intro text-center my-5">People wants to be cool in the music festival, such as Ultra,
+                Coachella,
+                etc. The most popular outfits are with shinny, bling accessories. Although music festival are very high
+                in average, sometimes, people might be a little
+                bit
+                awkward to jump or follow the beats because they go with acquaintance instead of their best friend, or
+                people
+                might not ready to join. In other cases, people might be too high in
+                concert.</h4>
+            <br>
+            <br>
+
+
+
+            <h2 class="title my-5">Intention</h2>
+            <h4 class="intro">
+                1. Make people cool in music festival <br>
+                2. Encourage them engaged in music festival more<br>
+                3. Provide a way to warn people if their heartbeats are not normal. </h4>
+
+
+            <h2 class="title my-5">Concept</h2>
+
+
+            <img class="img-fluid" src="concept-07.png" alt="">
+
+
+
+
+
+            <h2 id="item-4" class="title my-5">Process</h2>
+
+            <p class="intro my-5">make the LEDstrip light up along with music</p>
+            <div class="video">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item " src="https://www.youtube.com/embed/ZPnbhUAGVEQ"
+                        allowfullscreen></iframe>
+                </div>
+
+
+            </div>
+            <p class="intro my-5">Connect pulse sensor</p>
+            <div class="video">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item " src="https://www.youtube.com/embed/ZPlfMs_Ovh0"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+            <p class="intro my-5">Decorate the chocker</p>
+            <div class="row justify-content-center  mb-2">
+                <div class="col-12">
+
+
+                    <img class="img-fluid" src="decorate.png" alt=""> </div>
+
+
+
+            </div>
+
+            <h2 id="item-3" class="title my-5">Prototype</h2>
+
+
+            <br>
+            <br>
+            <br>
+        </div>
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+
+    </div>
+
+
+
+    <footer>
+        <ul class="nav justify-content-center">
+            <li class="nav-item">
+                <a class="nav-link " href="#">FOG</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../djlego/djlego.html">DJ.lego</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../darklabel/darklabel.html">Dark Labels</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled " href="../ravechocker/ravechocker.html">Rave Chocker</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " href="../rebornharbor/reborn.html">Reborn Harbor</a>
+            </li>
+        </ul>
+
+    </footer>
+
+
+
+
 
 </body>
 

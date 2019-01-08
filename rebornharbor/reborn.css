@@ -1,0 +1,168 @@
+body {
+    box-sizing: border-box;
+    color: black;
+    font-family: 'Chivo', sans-serif;
+    position: relative;
+    overflow-y: scroll;
+
+}
+
+/* header */
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 20px;
+    letter-spacing: 5px;
+    /* margin: 40px 75px;*/
+    text-align: right;
+    line-height: normal;
+    margin: 40px 80px;
+
+
+
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    text-align: right;
+}
+
+.name {
+    color: black;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-decoration: none;
+    margin: 0px 12px;
+
+
+}
+
+.work,
+.about {
+    color: black;
+    font-weight: bold;
+    letter-spacing: 5px;
+    text-decoration: none;
+    margin: 0px 20px;
+}
+
+
+/* content part */
+
+
+.wrap {
+    padding-left: 91px;
+    padding-right: 91px;
+    margin-top: 120px;
+    font-family: 'Chivo:700', sans-serif;
+
+}
+
+
+
+.project {
+    margin-top: 40px;
+    font-weight: 800;
+    letter-spacing: 1.8px;
+    font-family: 'Chivo', sans-serif;
+
+
+}
+
+.col-6 {
+    justify-content: center;
+}
+
+.topic {
+    margin-top: 80px;
+    margin-bottom: 30px;
+    font-size: 30px;
+    text-justify: center;
+
+
+}
+
+.intro {
+
+    align-items: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.6;
+    letter-spacing: 1px;
+    font-family: 'Chivo';
+
+}
+
+.info1 {
+    align-items: center;
+    font-size: 30px;
+    font-family: 'Chivo';
+
+}
+
+.info {
+    align-items: center;
+    font-size: 18px;
+    font-family: 'Chivo';
+
+}
+
+.interview {
+    text-align: center;
+    font-family: 'Chivo';
+    font-size: 26px;
+
+
+}
+
+.who {
+    text-align: center;
+    font-family: 'Chivo';
+    font-size: 16px;
+
+}
+
+.title,
+.subtitle {
+    font-family: 'Chivo';
+}
+
+.keywords {
+    margin-top: 80px;
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+
+.video {
+    margin: auto;
+    width: 70%;
+}
+
+.logo {
+    width: 180px;
+    margin: auto;
+
+}
+
+
+
+.navbar {
+    background-color: #f8e0e7;
+}
+
+.nav-item {
+    font-family: 'Chivo', sans-serif;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+
+
+
+}
+
+/* footer part */
