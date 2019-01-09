@@ -126,6 +126,15 @@ canvas,
     text-align: center;
 }
 
+.text {
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    letter-spacing: 2px;
+    color: rgb(27, 26, 26);
+    margin: 0px
+}
+
 /* Real glitch effect */
 
 
@@ -212,6 +221,7 @@ canvas,
         width: 30px;
         height: 50px;
     }
+
 
 }
 
