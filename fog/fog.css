@@ -221,12 +221,19 @@ body {
 
 }
 
+.process {
+    width: 600px;
+    height: 360px;
+}
+
 .card-body {
     font-family: 'Chivo', sans-serif;
     font-size: 18px;
     background-color: rgb(246, 248, 250);
 
 }
+
+
 
 #pattern {
     height: 421px
